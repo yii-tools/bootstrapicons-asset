@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Yii\BootstrapIcons\Asset\Cdn;
 
 use Yiisoft\Assets\AssetBundle;
-use Yiisoft\Files\PathMatcher\PathMatcher;
 
 final class BootstrapIconsAsset extends AssetBundle
 {
