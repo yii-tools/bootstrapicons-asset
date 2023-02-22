@@ -16,7 +16,7 @@ final class CdnAssetTest extends TestCase
     use TestTrait;
 
     /**
-     * @dataProvider \Yii\BootstrapIcons\Asset\Tests\Provider\CdnAssetProvider::assetBundles()
+     * @dataProvider \Yii\BootstrapIcons\Asset\Tests\Provider\CdnAssetProvider::assetBundles
      *
      * @psalm-suppress InvalidStringClass
      * @psalm-suppress MixedArrayOffset
