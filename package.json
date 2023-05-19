@@ -2,7 +2,7 @@
     "name": "bootstrapicons-asset",
     "version": "1.0.0",
     "dependencies": {
-        "bootstrap-icons": "^1.10.3"
+        "bootstrap-icons": "^1.10.5"
     },
     "license": "mit"
 }

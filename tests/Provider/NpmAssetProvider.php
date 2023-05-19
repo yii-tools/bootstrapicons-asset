@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yii\BootstrapIcons\Asset\Tests\Provider;
+namespace Yii\Assets\Tests\Provider;
 
-use Yii\BootstrapIcons\Asset\Npm\BootstrapIconsAsset;
+use Yii\Assets\BootstrapIconsDev;
 
 final class NpmAssetProvider
 {
@@ -14,10 +14,7 @@ final class NpmAssetProvider
     public static function assetBundles(): array
     {
         return [
-            [
-                'Css',
-                BootstrapIconsAsset::class,
-            ],
+            ['Css', BootstrapIconsDev::class],
         ];
     }
 }

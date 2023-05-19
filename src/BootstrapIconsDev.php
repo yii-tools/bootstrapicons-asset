@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yii\BootstrapIcons\Asset\Npm;
+namespace Yii\Assets;
 
 use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
 
-final class BootstrapIconsAsset extends AssetBundle
+final class BootstrapIconsDev extends AssetBundle
 {
     public string|null $basePath = '@assets';
     public string|null $baseUrl = '@assetsUrl';
