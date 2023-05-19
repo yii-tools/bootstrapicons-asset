@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yii\BootstrapIcons\Asset\Tests\Provider;
+namespace Yii\Assets\Tests\Provider;
 
-use Yii\BootstrapIcons\Asset\Cdn\BootstrapIconsAsset;
+use Yii\Assets\BootstrapIconsCdn;
 
 final class CdnAssetProvider
 {
@@ -14,10 +14,7 @@ final class CdnAssetProvider
     public static function assetBundles(): array
     {
         return [
-            [
-                'Css',
-                BootstrapIconsAsset::class,
-            ],
+            ['Css', BootstrapIconsCdn::class],
         ];
     }
 }
