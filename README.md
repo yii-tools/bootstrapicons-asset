@@ -25,7 +25,7 @@ composer require yii-tools/bootstrapicons-asset
 
 ## Usage
 
-For use this package, read the [docs](/docs/README.md).
+[Check the documentation docs](/docs/README.md) to learn about usage.
 
 ## Testing
 
